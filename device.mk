@@ -7,6 +7,9 @@
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/xiaomi/violet/violet-vendor.mk)
 
+# GoogleCamera
+$(call inherit-product-if-exists, packages/apps/GoogleCamera/gcam.mk)
+
 # Firmware
 $(call inherit-product, vendor/xiaomi/violet/firmware/firmware.mk)
 
@@ -447,7 +450,3 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
-
-# PixelWallpapers
-PRODUCT_PACKAGES += \
-    PixelLiveWallpaperPrebuilt
