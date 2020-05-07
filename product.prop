@@ -45,7 +45,7 @@ persist.data.df.dev_name=rmnet_usb0
 ro.netflix.bsp_rev=Q6150-17263-1
 
 # SafteyNet prop
-ro.build.fingerprint=google/flame/flame:10/QQ2A.200405.005/6254899:user/release-keys
+ro.build.fingerprint=google/flame/flame:10/QQ2A.200501.001.A3/6353761:user/release-keys
 
 #Colt-Maintainer
 ro.colt.maintainer=Athul Dinesan
