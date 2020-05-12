@@ -14,7 +14,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
 # Inherit some common HavocOS stuff.
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 1080x2340
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 $(call inherit-product, vendor/colt/config/common_full_phone.mk)
