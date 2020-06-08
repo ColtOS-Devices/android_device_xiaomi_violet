@@ -37,3 +37,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 #Colt-Official
 COLT_BUILD_TYPE := Official
+COLT_DEVICE_MAINTAINER := Logan
