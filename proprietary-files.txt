@@ -742,7 +742,6 @@ vendor/lib64/libmlipay.so
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
 
-
 # Peripheral - from davinci-user 11 RKQ1.200826.002 21.2.3 release-keys
 vendor/bin/pm-proxy|73caf1b46a861e623ec7538cc254783b301a4dfd
 vendor/bin/pm-service|2775e6bddbdb3a184f35a0b94d6e8d3e0a4c233e
