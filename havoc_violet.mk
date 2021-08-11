@@ -30,8 +30,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-export export
-HAVOC_BUILD_TYPE=Official
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.havoc.maintainer=athuld
-
+# havoc specific props
+HAVOC_BUILD_TYPE := Official
+HAVOC_MAINTAINER := Athul Dinesan (Logan)
+HAVOC_GROUP_URL := https://t.me/havoc_violet
