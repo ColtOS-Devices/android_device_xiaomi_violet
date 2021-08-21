@@ -6,8 +6,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_violet.mk
+    $(LOCAL_DIR)/colt_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_violet-userdebug \
-    havoc_violet-user
+    colt_violet-userdebug \
+    colt_violet-user

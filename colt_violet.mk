@@ -8,15 +8,13 @@
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
-# Inherit some common Havoc OS stuff.
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
-TARGET_BOOT_ANIMATION_RES := 1080
+# Inherit some common Colt OS stuff.
+$(call inherit-product, vendor/colt/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1080x2280
 IS_PHONE := true
 
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
-
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := havoc_violet
+PRODUCT_NAME := colt_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
@@ -30,7 +28,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# havoc specific props
-HAVOC_BUILD_TYPE := Official
-HAVOC_MAINTAINER := Athul Dinesan (Logan)
-HAVOC_GROUP_URL := https://t.me/havoc_violet
+# colt specific props
+COLT_BUILD_TYPE := Official
+COLT_BUILD_MAINTAINER := Logan
+
